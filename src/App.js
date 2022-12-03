@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Homepage from './Homepage';
-import Login from './Login';
-import Studentreg from './Studentreg';
-import Admindash from './Admindash';
-import Studentdash from './Studentdash';
+import Homepage from './pages/Homepage';
+import Login from './pages/Login';
+import Studentreg from './pages/Studentreg';
+import Admindash from './pages/Admindash';
+import Studentdash from './pages/Studentdash';
 import { Routes, Route  } from "react-router-dom";
 
 function App() {

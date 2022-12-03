@@ -7,6 +7,8 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import styles from "./Table.module.css";
+
 
 
 
@@ -50,26 +52,27 @@ const rows = [
 
 export default function CustomizedTables() {
   return (
-    
-    <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 700, mx: 'auto', width: 1300 }} aria-label="customized table">
-        <TableHead>
-          <TableRow>
-            <StyledTableCell align="center">Date</StyledTableCell>
-            <StyledTableCell align="center">Time In</StyledTableCell>
-            <StyledTableCell align="center">Time Out</StyledTableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {rows.map((row) => (
-            <StyledTableRow key={row.name}>
-              <StyledTableCell align="center">{row.date}</StyledTableCell>
-              <StyledTableCell align="center">{row.timein}</StyledTableCell>
-              <StyledTableCell align="center">{row.timeout}</StyledTableCell>
-            </StyledTableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
+    <div className={styles.container}>
+      <TableContainer component={Paper}>
+        <Table sx={{ minWidth: 700}} aria-label="customized table">
+          <TableHead>
+            <TableRow>
+              <StyledTableCell align="center">Date</StyledTableCell>
+              <StyledTableCell align="center">Time In</StyledTableCell>
+              <StyledTableCell align="center">Time Out</StyledTableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {rows.map((row) => (
+              <StyledTableRow key={row.name}>
+                <StyledTableCell align="center">{row.date}</StyledTableCell>
+                <StyledTableCell align="center">{row.timein}</StyledTableCell>
+                <StyledTableCell align="center">{row.timeout}</StyledTableCell>
+              </StyledTableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
+    </div>
   );
 }
