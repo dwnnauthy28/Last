@@ -62,21 +62,6 @@ select {
 }
 
 @media screen and (max-width: 500px) {
-    /* .input {
-        width: 100px;
-    }
-
-    select {
-        width: 100px;
-    }
-
-    .secondary {
-        width: 100px;
-    }
-
-    .search {
-        gap: 2px;
-    } */
     .container {
         display: block;
     }
