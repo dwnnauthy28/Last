@@ -19,6 +19,15 @@
     color: white;
     font-size: 17px;
     margin-right: 10px;
+    cursor: pointer;
+}
+
+.transcribe:hover {
+    background: #d8411f;
+}
+
+.transcribe:active {
+    background: #ac3318;
 }
 
 .input {

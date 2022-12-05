@@ -24,9 +24,6 @@ hr {
     margin-top: 150px;
 }
 
-
-
-
 .image > img {
     height: 200px;
     border-radius: 10px;
@@ -112,7 +109,6 @@ hr {
     /* margin-left: 30px; */
 }
 
-
 .deets {
     display: flex;
     align-items: center;
@@ -120,4 +116,13 @@ hr {
     margin-left: 30px;
 }
 
+@media screen and (max-width: 500px) {
+    .box {
+        margin-top: 80px;
+        padding-bottom: 45px;
+    }
 
+    .card {
+        margin-left: 25px;
+    }
+  }

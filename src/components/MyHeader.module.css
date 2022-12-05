@@ -21,7 +21,7 @@
 .headerButtons {
   display: flex;
   margin-right: 30%;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
   
@@ -31,6 +31,36 @@
     height: 90px;
   }
   
+
+  @media only screen and (max-width: 1000px) {
+    .container {
+      width: 100%;
+  
+    }
+  }  
+
+  @media only screen and (max-width: 1400px ) and (min-width: 800px) {
+    .container >p{
+      font-size: 2vw;
+      margin-top: 3vw;
+    }
+  }
+  
+  @media only screen and (max-width: 1400px) {
+    .headerButtons{
+      width: 20px;
+      height: 20px;
+      margin-right: 8%;
+      margin-top: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 1400px) and (min-width: 800px){
+    .image >img {
+      width: 6vw;
+      height: 6vw;
+    }
+  }
 
 
   

@@ -95,3 +95,26 @@
         gap: 30px;
           justify-content: space-evenly;
      }
+
+
+     @media only screen and (max-width: 1400px) {
+      .container {
+        background-size: 100% 100%;   
+      }
+    }
+
+    @media only screen and (max-width: 1400px) and (min-width: 800px){
+      .form {
+        width: 55vw;   
+        height: 75vw;
+        margin-top: 50px;
+      }
+    }
+
+    @media only screen and (max-width: 1400px) and (min-width: 800px){
+      .form {
+        width: 55vw;   
+        height: 75vw;
+        margin-top: 50px;
+      }
+    }

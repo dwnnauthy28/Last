@@ -9,6 +9,7 @@ export const Dashadmin = () => {
                 <input className={styles.input} type="text"></input>
                 <button className={styles.icon}><SearchIcon sx={{ fontSize: 20}} /></button>
                 <select name="Course">
+                    <option value="" hidden>Course</option>
                     <option value="1">BGT-AT</option>
                     <option value="2">BET-ET</option>
                     <option value="3">BET-EST</option>
@@ -25,7 +26,8 @@ export const Dashadmin = () => {
                     <option value="14">BS-ME</option>
                 </select>
             </div>
-            <div>
+            <div className={styles.buttons}>
+                <a href="/studentreg"><button className={styles.secondary}>Register</button></a>
                 <button className={styles.secondary}>Transcribe</button>
             </div>
         </div>

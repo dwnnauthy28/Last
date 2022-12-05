@@ -22,7 +22,7 @@ export const MyForm = () => {
         </div>
         <div className={styles.formButtons}>
         <a href="/admindash"><Button variant="primary">Log In</Button></a>
-        <a href="/studentreg"><Button variant="secondary">Sign In</Button></a>
+        {/* <a href="/studentreg"><Button variant="secondary">Sign In</Button></a> */}
       </div>
         </div>   
       </div>

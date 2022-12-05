@@ -32,3 +32,18 @@
     .secondary:hover {
       background-color: #8f0c0c;
     }
+
+    @media only screen and (max-width: 1400px) {
+      .primary {
+      font-size: 1.7vw;
+      width: 9vw;
+      }
+    }
+
+    @media only screen and (max-width: 1400px) {
+      .secondary {
+      font-size: 1.7vw;
+      width: 9vw;
+      }
+    }
+

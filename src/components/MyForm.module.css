@@ -59,3 +59,42 @@
       justify-content: space-evenly;
      }
 
+     @media only screen and (max-width: 1400px) {
+      .container {
+        background-size: 110% 110%;   
+      }
+    }
+
+    @media only screen and (max-width: 1400px) and (min-width: 800px){
+      .form {
+        width: 50vw;   
+       height: 38vw;
+        margin-top: 50px;
+      }
+    }
+
+    @media only screen and (max-width: 1400px) {
+      .form >h2 {
+        font-size: 25px;
+      }
+    }
+
+    @media only screen and (max-width: 1400px) {
+      .txt_field >label {
+       font-size: 20px;
+      }
+    }
+
+    @media only screen and (max-width: 1400px) {
+      .txt_field >input {
+       font-size: 20px;
+       width: 60%;
+       height: 30px;
+      }
+    }
+
+    @media only screen and (max-width: 1700px) and (min-width: 900px){
+      .formButtons {
+      margin-top: -10px;
+      }
+    }

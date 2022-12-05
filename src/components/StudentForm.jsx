@@ -33,8 +33,8 @@ export const StudentForm = () => {
             <input type="date" required></input>
         </div>
         <div className={styles.StudentformButtons}>
-            <a href="/login"><Button variant="primary">Submit</Button></a>
-            <a href="/login"><Button variant="secondary">Cancel</Button></a>
+            <a href="/admindash"><Button variant="primary">Submit</Button></a>
+            <a href="/admindash"><Button variant="secondary">Cancel</Button></a>
       </div>
 
         </div>   
