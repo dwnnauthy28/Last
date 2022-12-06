@@ -28,7 +28,6 @@ export const Dashadmin = () => {
             </div>
             <div className={styles.buttons}>
                 <a href="/studentreg"><button className={styles.secondary}>Register</button></a>
-                <button className={styles.secondary}>Transcribe</button>
             </div>
         </div>
 

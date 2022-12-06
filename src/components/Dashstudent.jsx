@@ -10,9 +10,6 @@ export const Dashstudent
                 <input className={styles.input} type="text"></input>
                 <button className={styles.icon}><SearchIcon sx={{ fontSize: 20}} /></button>
             </div>
-            <div>
-                <button className={styles.transcribe}>Transcribe</button>
-            </div>
         </div>
     )
 }
