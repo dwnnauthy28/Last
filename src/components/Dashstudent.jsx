@@ -7,7 +7,7 @@ export const Dashstudent
     return (
         <div className={styles.container}>
             <div className={styles.search}>
-                <input className={styles.input} type="text"></input>
+                <input className={styles.input} type="date"></input>
                 <button className={styles.icon}><SearchIcon sx={{ fontSize: 20}} /></button>
             </div>
         </div>
