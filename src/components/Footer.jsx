@@ -1,9 +1,10 @@
 import styles from "./Footer.module.css";
 
-export const Footer = () => {
+const Footer = () => {
     return (
     <div className={styles.container}>
-        <p>2022 Technological University of the Philippines - Cavite</p>
+        <p>2022 - 2023 Tinkers Inc. All Rights Reserved.</p>
     </div>
-    )
-}
+    );
+};
+export default Footer;

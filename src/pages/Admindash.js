@@ -1,16 +1,18 @@
-// import './App.css';
-import { Dashadmin } from '../components/Dashadmin';
-import { Header } from '../components/Header';
+
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import { Dashadminn } from '../components/Dashadmin';
 import BasicTable from '../components/BasicTable';
 
-function Admindash() {
-  return (
-    <div className="Admindash">
-      <Header />
-      <Dashadmin />
-      <BasicTable />
-    </div>
-  )
+const Admindash = () => {
+    return(
+        <div >
+            <Header />
+            <Dashadminn/>
+            <BasicTable/>
+            <Footer />
+        </div>
+    )
 }
 
 export default Admindash;

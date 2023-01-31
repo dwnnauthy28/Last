@@ -1,17 +1,18 @@
 import styles from "./Landing.module.css";
 // import Link from "next/link";
 
-export const Landing = () => {
+const Landing = () => {
     return (
-    <div className={styles.container}>    
-        <div className={styles.image}>
-            <img src="./images/logo.png" alt="logo"/>
-        </div>
+    <div className={styles.container}>  
+        <div className={styles.btn}>
+            <a href="/Login"><button className={styles.login}>LOGIN</button></a>
+        </div> 
         <div className={styles.content}>
-            <h1>Technological <br/> University of the <br/> Philippines -<br/> Cavite </h1>
-            <p>ISO 9001:2015 CERTIFIED | TÜV SÜD PSB-PH 100 01 0028</p>
-            <a href="/login"><button className={styles.login}>LOGIN</button></a>
+            <h1>Camera <br/>Automation <br/>Machine <br/>Shots</h1>
+            <p>Record Every moments you want to remember</p>
         </div>
     </div>
-    )
-}
+    );
+};
+export default Landing;
+// <Link href="/"><img src="/home.png" height={25} width={25}/>Home</Link>

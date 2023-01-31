@@ -2,7 +2,7 @@ import styles from "./Dashadmin.module.css";
 import SearchIcon from '@mui/icons-material/Search';
 
 
-export const Dashadmin = () => {
+export const Dashadminn = () => {
     return (
         <div className={styles.container}>
             <div className={styles.search}>
@@ -27,7 +27,7 @@ export const Dashadmin = () => {
                 </select>
             </div>
             <div className={styles.buttons}>
-                <a href="/studentreg"><button className={styles.secondary}>Register</button></a>
+                <a href="/register"><button className={styles.secondary}>Register</button></a>
             </div>
         </div>
 

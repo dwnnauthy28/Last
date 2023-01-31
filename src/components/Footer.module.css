@@ -2,13 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #262a2e;
-    height: 5vh;
+    background-color: rgb(114, 9, 9);
+    height: 6vh;
     /* padding-left: 30px; */
     /* margin: 100px; */
 }
 
 .container > p {
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
 }

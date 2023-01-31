@@ -5,6 +5,8 @@
     align-items: center;
     background-color: #343A40;
     height: 10px;
+    color: white;
+    
 }
 
 .primary {
@@ -25,11 +27,11 @@
     color: #d3d3d3;
 }
 
-img {
-    height: 50px;
+img.container {
+    height: 20px;
 }
 
-a {
+a.container{
     font-family: sans-serif;
     display: flex;
     align-items: center;
@@ -40,9 +42,6 @@ a {
 }
 
 @media screen and (max-width: 500px) {
-    a {
-        font-size: 15px;
-    }
 
     .primary {
         font-size: 15px;

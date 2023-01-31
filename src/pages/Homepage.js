@@ -1,15 +1,11 @@
-import React from 'react'
-import { Landing } from '../components/Landing';
-import { Campus } from '../components/Campus';
-import { Departments } from '../components/Departments';
-import { Footer } from '../components/Footer';
 
-function Homepage(){
+import Landing from '../components/Landing';
+import Footer from '../components/Footer';
+
+const Homepage = () => {
     return(
-        <div className="App">
+        <div >
             <Landing />
-            <Campus />
-            <Departments />
             <Footer />
         </div>
     )

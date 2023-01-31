@@ -1,47 +1,45 @@
 .container {
-  display: flex;
-  justify-content: center;
   gap: 100px;
-  align-items: center;
+  align-items: left;
   padding: 6% 0% 9%;
   height: 100%; /*100vh*/
-  background-color: #ffffff;
+  background-image: url(background.jpg);
+  background-size: cover;
+  height: 100%;
+  background-position: 100px;
+
 }
+
+
 
 .content {
   text-align: left;
+  justify-content: left;
+  margin-left: 250px;
+  
 }
 
 .content > h1 {
   font-size: 70px;
   line-height: 100px;
-  color: black;
+  color: rgb(114, 9, 9);
+  font-weight: bold;
+
 }
 
 .content > p {
   color: rgb(0, 0, 0);
   margin-left: 7px;
   margin-top: -20px;
+  font-weight: bold;
+  font-size: larger;
 }
-
-.image {
-  height: 100%;
-}
-
-.image > img {
-  padding: 30px 0px 30px;
-  width: 100%; /*550px*/
-  height: 100%;
-  display: flex;
-  filter: drop-shadow(-30px 20px 15px #8f8f8f);
-}  
-
 .login {
   border-radius: 4px;
-  background-color: #C63A1C;
+  background-color: rgb(114, 9, 9);
   border: 2px;
   border-style: solid;
-  border-color: #C63A1C;
+  border-color: rgb(114, 9, 9);
   color: white;
   text-align: center;
   font-size: 15px;
@@ -50,12 +48,15 @@
   transition: all 0.5s;
   cursor: pointer;
   margin: 10px;
-  display: inline-block;
   position: relative;
   transition: 0.5s;
-  margin-left: 6px;
+  margin-left: 1500px;
+  justify-content: right;
 }
-  
+.btn {
+  justify-content: right;
+}
+
 .login:after {
   content: '»';
   position: absolute;
@@ -68,6 +69,9 @@
 .login:hover{
   padding-right: 24px;
   padding-left:8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 0  rgb(114, 0, 9), -5px -5px 0 rgb(114, 9, 9);
+  transform: scale(1.05);
 }
   
 .login:hover:after {
@@ -79,10 +83,7 @@
   background-color: rgb(211, 210, 210);
 }
 
-a {
-  color: #fff;
-  font-size: 17px;
-}
+
 
 @media screen and (max-width: 500px) {
   .container {
@@ -106,5 +107,6 @@ a {
   .content > p {
     color: rgb(0, 0, 0);
     margin: 10px 0px 5px 7px;
+    
   }
 }

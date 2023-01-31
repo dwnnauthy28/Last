@@ -13,6 +13,11 @@
    }
    .primary:hover {
       background-color: #8f0c0c;
+        padding-right: 24px;
+        padding-left:8px;
+        cursor: pointer;
+        box-shadow: 2px 2px 0  rgb(243, 223, 225), -2px -2spx 0  rgb(243, 223, 225);
+        transform: scale(1.05);
     }
 
     .secondary {
@@ -31,6 +36,11 @@
 
     .secondary:hover {
       background-color: #8f0c0c;
+        padding-right: 24px;
+        padding-left:8px;
+        cursor: pointer;
+        box-shadow:  2px 2px 0  rgb(243, 223, 225), -2px -2spx 0  rgb(243, 223, 225);
+        transform: scale(1.05);
     }
 
     @media only screen and (max-width: 1400px) {
